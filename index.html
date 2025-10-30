@@ -35,20 +35,34 @@
             </div>
           </div>
           <div id="controls" class="text-center">
-            <button class="btn btn-primary rounded-circle">
-              <i id="prev" class="fa-solid fa-backward-step"></i>
+            <button id="prev" class="btn btn-primary rounded-circle">
+              <i class="fa-solid fa-backward-step"></i>
             </button>
-            <button class="btn btn-primary rounded-circle btn-lg mx-2">
-              <i id="play" class="fa-solid fa-play"></i>
+            <button
+              id="play"
+              class="btn btn-primary rounded-circle btn-lg mx-2"
+            >
+              <i class="fa-solid fa-play"></i>
             </button>
-            <button class="btn btn-primary rounded-circle">
-              <i id="next" class="fa-solid fa-forward-step"></i>
+            <button id="next" class="btn btn-primary rounded-circle">
+              <i class="fa-solid fa-forward-step"></i>
             </button>
           </div>
         </div>
         <div class="card-footer">
-          <i id="volume" class="fa-solid fa-volume-high"></i>
-          <input type="range" id="volume-bar" max="100" value="100" />
+          <button class="btn btn-primary btn-sm">
+            <i class="fa-solid fa-bars"></i>
+          </button>
+          <div class="volume-container">
+            <i id="volume" class="fa-solid fa-volume-high"></i>
+            <input
+              type="range"
+              id="volume-bar"
+              max="100"
+              value="100"
+              class="form-range mx-2"
+            />
+          </div>
         </div>
       </div>
     </div>

@@ -9,7 +9,9 @@ body {
   width: 400px;
 }
 
-#progress .times {
+#progress .times,
+.card-footer,
+.volume-container {
   display: flex;
   align-items: center;
   justify-content: space-between;
